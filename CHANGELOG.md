@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.1] - 2026-09-26
+
+### Features
+
+- fix(ci): resolve small checks/issues that weren't obvious to be broken yet ([#10](https://github.com/top-stats/bots-rust-sdk/pull/10)) by @Arthurdw
+
+### Chores
+
+- ci: bump DavidAnson/markdownlint-cli2-action from 22 to 24 ([#15](https://github.com/top-stats/bots-rust-sdk/pull/15)) by @dependabot[bot]
+- ci: bump actions/create-github-app-token from 2 to 3 ([#13](https://github.com/top-stats/bots-rust-sdk/pull/13)) by @dependabot[bot]
+- deps: update def non breaking deps ([#23](https://github.com/top-stats/bots-rust-sdk/pull/23)) by @Arthurdw
+
 ## [0.1.0] - 2026-02-23
 
 ### Features

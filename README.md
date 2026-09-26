@@ -6,14 +6,14 @@ Rust SDK for the [TopStats.gg API](https://topstats.gg) - Discord bot statistics
 
 ```toml
 [dependencies]
-topstats = "0.1.0"
+topstats = "0.1.1"
 ```
 
 For blocking mode:
 
 ```toml
 [dependencies]
-topstats = { version = "0.1.0", default-features = false, features = ["blocking", "ureq-client"] }
+topstats = { version = "0.1.1", default-features = false, features = ["blocking", "ureq-client"] }
 ```
 
 ## Usage
