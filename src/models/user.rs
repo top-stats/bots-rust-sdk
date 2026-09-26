@@ -77,13 +77,13 @@ pub struct UserBotsResponse {
 impl UserBotsResponse {
     /// Returns the number of bots owned by the user.
     #[must_use]
-    pub fn count(&self) -> usize {
+    pub const fn count(&self) -> usize {
         self.bots.len()
     }
 
     /// Returns `true` if the user has no bots.
     #[must_use]
-    pub fn is_empty(&self) -> bool {
+    pub const fn is_empty(&self) -> bool {
         self.bots.is_empty()
     }
 
